@@ -1,0 +1,16 @@
+<div class="job" #job>
+    <div class="job0deg" #job0>
+        <h4 class="title job-title">{{result.name}}</h4>
+        <h4 class="title company">At {{result.company.name}}</h4>
+        <h4 class="highlight job-level">{{result.levels[0].name}}</h4>
+        <h4 class="paragraph job-location">{{result.locations[0].name}}</h4>
+        <h4 class="paragraph publication">Published date: {{time(result.publication_date)[0]}} and time: {{time(result.publication_date)[1]}}</h4>
+        <h4 class="highlight category">Category: {{result.categories[0].name}}</h4>
+    </div>
+    <div class="job180deg" #job180>
+        <h4 class="desc paragraph" #desc>{{convert(result.contents,desc)}}</h4>
+        <h4 class="external-link"><a href="{{result.refs.landing_page}}" target="_blank" class="highlight">Click here to apply!</a></h4>
+    </div>
+    <h4 class="link highlight" (click)="handleClick(job,job0,job180,link)" #link>Click here to view more!</h4>
+</div>
+

@@ -1,4 +1,8 @@
-# JobIt
+# JobFinder - JobIT
+
+This is an angular web application. This application is built for searching Tech related job in India. The jobs are fetched from [the muse](https://www.themuse.com/developers/api/v2) API.
+
+The Application allows features to sort and filter jobs displayed.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 

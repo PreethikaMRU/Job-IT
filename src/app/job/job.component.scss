@@ -1,0 +1,101 @@
+.job{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.25s;
+    justify-content: space-between;
+    height: 450px;
+}
+
+.job0deg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.external-link{
+    transform: scaleX(-1);
+    padding: 15px;
+    margin: 0;
+}
+
+.job-title{
+    text-align: center;
+    padding: 0 5px;
+    font-size: 30px;
+}
+
+.link{
+    border-top: 1.5px solid #eee;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.link:hover{
+    cursor: pointer;
+    background-color: #4E4FEB;
+    outline: none !important;
+    border: 1px solid #4E4FEB;
+    box-shadow: 0 0 10px #4E4FEB;
+    color: #111;
+}
+
+.desc{
+    margin: 15px;
+    height: 250px;
+    overflow-y: scroll;
+    font-size: 15px;
+    color: #068FFF;
+    padding: 5px;
+    transform: scaleX(-1);
+    border-bottom: 1px solid #eee;
+    width: 90%;
+}
+
+.job-location, .publication{
+    font-size: 20px;
+    color: #068FFF;
+    margin: 0;
+    padding: 0 5px;
+}
+
+.publication{
+    text-align: center;
+}
+
+.job-level, .category{
+    font-size: 20px;
+    margin: 0;
+    padding: 0 5px;
+}
+
+.category{
+    text-align: center;
+}
+
+.company{
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+.job180deg{
+    display: none;
+    visibility:hidden;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
